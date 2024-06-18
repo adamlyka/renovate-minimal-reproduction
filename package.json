@@ -1,0 +1,44 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "author": "me",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/ --ext .ts",
+    "lint:commits": "commitlint --from=HEAD~1 --verbose",
+    "lint:fix": "yarn lint --fix",
+    "start:dev": "ts-node src/index.ts",
+    "release": "yarn semantic-release",
+    "test": "jest",
+    "test:ci": "yarn test --ci"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/github": "^9.2.5",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1",
+    "semantic-release": "^22.0.12",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7"
+  }
+}
