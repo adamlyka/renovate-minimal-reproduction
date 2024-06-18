@@ -1,15 +1,14 @@
 # 29509
 
-Reproduction for renovate issue https://github.com/renovatebot/renovate/discussions/29509
 
 ## Current behavior
 
-Explain the current behavior here.
+Other dependencies are being updated
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Only expect security updates to come through in prs
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+Reproduction for renovate issue https://github.com/renovatebot/renovate/discussions/29509
