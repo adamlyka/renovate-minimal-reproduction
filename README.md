@@ -1,4 +1,4 @@
-# Discussion #29509
+# 29509
 
 First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
